@@ -11,7 +11,7 @@ function App() {
   const [pyodide, setPyodide] = useState(null);
   const [loading, setLoading] = useState(true);
 
-cd 
+
   useEffect(() => {
     const loadPyodideLib = async () => {
       if (window.loadPyodide) {
